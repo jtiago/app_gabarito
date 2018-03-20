@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 import br.conexao.ConexaoGabarito;
 import br.modelo.Correto;
+import br.util.RetornaDiretorio;
 
 public class GabaritoCorretoDAO {
 	
@@ -59,7 +60,7 @@ public class GabaritoCorretoDAO {
 		
 		try {
 			pst = conn.prepareStatement("SELECT * FROM ga_correto where semestre = ? order by turma asc");
-			pst.setString(1, "2017.2");
+			pst.setString(1, RetornaDiretorio.SEMESTRE);
 			rs = pst.executeQuery();
 			
 			if(!rs.next()){

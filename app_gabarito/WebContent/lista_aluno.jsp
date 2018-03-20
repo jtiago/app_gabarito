@@ -1,3 +1,4 @@
+<%@page import="br.util.RetornaDiretorio"%>
 <%@page import="br.dao.GabaritoAlunoDAO"%>
 <%@page import="br.modelo.Turma"%>
 <%@page import="br.dao.GabaritoTurmaDAO"%>
@@ -57,7 +58,7 @@ function confirmaExclusao(aURL) {
 					<%
 						GabaritoTurmaDAO daoTurma = new GabaritoTurmaDAO();
 						List<Turma> listaTurma = new ArrayList<Turma>();
-						listaTurma = daoTurma.getFiltraSemestre("2017.2");
+						listaTurma = daoTurma.getFiltraSemestre(RetornaDiretorio.SEMESTRE);
 						for (Turma tur : listaTurma) {
 					%>
 					<option value="<%=tur.getSigla()%>"><%=tur.getSigla()%></option>
@@ -88,7 +89,7 @@ function confirmaExclusao(aURL) {
 			<td width="10" style="border-right: 1px dashed #ccc;"><!-- Excluir --></td>
 		</tr>
 		<%
-			listaAluno = daoAluno.getFiltroSemestreTurma("2017.2", request.getParameter("turma"));
+			listaAluno = daoAluno.getFiltroSemestreTurma(RetornaDiretorio.SEMESTRE, request.getParameter("turma"));
 			if (listaAluno.isEmpty() || listaAluno == null) {
 				out.println("<font color=\"red\">Nenhuma Gabarito foi encontrada.</font>");
 			} else {

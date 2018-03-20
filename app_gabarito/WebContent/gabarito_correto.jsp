@@ -5,6 +5,7 @@
 	import="java.util.List"
 	import="br.modelo.Turma"
 	import="java.util.ArrayList"
+	import="br.util.RetornaDiretorio"
 %>
     
 
@@ -57,7 +58,7 @@ body{background:url(imagens/barra_fundo.jpg) top left repeat-x fixed;}
 				<%
 				GabaritoTurmaDAO daoTurma = new GabaritoTurmaDAO();
 				List<Turma> listaTurma = new ArrayList<Turma>();
-				listaTurma = daoTurma.getFiltraSemestre("2017.2");
+				listaTurma = daoTurma.getFiltraSemestre(RetornaDiretorio.SEMESTRE);
 				for(Turma turma : listaTurma){
 				%>
 				<option value="<%=turma.getSigla()%>"><%=turma.getSigla()%></option>
