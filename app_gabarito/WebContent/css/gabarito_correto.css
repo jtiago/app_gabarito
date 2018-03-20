@@ -1,0 +1,51 @@
+body {
+	margin:0px;
+/* 	background:url(../imagens/barra_fundo.jpg) top left repeat-x fixed; */
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+}
+
+a img{
+	border-width:0;
+}
+#tudo{width:999px; margin:0 auto;}
+
+#topo{width: 999px;height: 180px;margin: 0 auto;}
+#menu{width:999px;height: 30px;margin: 0 auto;}
+#excluir{margin: 0 auto;}
+
+.listar{
+	width:480px;
+}
+
+.listar h1{
+	font-size:14px;
+	text-align:center;
+	font-weight:normal;
+}
+
+.listar h2{
+	text-align:center;
+	font-size:16px;
+	color:#003366;
+	font-weight:normal;
+}
+
+.listar td{
+	font-size:12px;
+	color:#003366;
+	text-align:justify;
+	padding:1px;
+	border-bottom:1px dashed #ccc;
+	border-left:1px dashed #ccc;
+}
+
+.listar fieldset{
+	margin-top:7px;
+	padding:5px;
+}
+
+.listar fieldset legend{
+	font-size:14px;
+	color:#575757;
+	padding-bottom:5px;
+}

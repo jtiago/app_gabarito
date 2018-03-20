@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+/*--------------------------Turma--------------------*/
+.listar{
+	width:600px;
+}
+
+.listar h1{
+	font-size:14px;
+	text-align:center;
+	font-weight:normal;
+}
+
+.listar h2{
+	text-align:center;
+	font-size:16px;
+	color:#003366;
+	font-weight:normal;
+}
+
+.listar td{
+	font-size:12px;
+	color:#003366;
+	text-align:justify;
+	padding:1px;
+	border-bottom:1px dashed #ccc;
+	border-left:1px dashed #ccc;
+}
+
+.listar fieldset{
+	margin-top:7px;
+	padding:5px;
+}
+
+.listar fieldset legend{
+	font-size:14px;
+	color:#575757;
+	padding-bottom:5px;
+}
+
+
+
+.relatorio{
+	width:800px;
+	margin: 0 auto;
+}
+
+.relatorio h1{
+	font-size:14px;
+	text-align:center;
+	color:#000000;
+}
+
+.relatorio h2{
+	text-align:center;
+	font-size:13px;
+	color:#000000;
+	font-weight:normal;
+}
+
+.relatorio h3{
+	text-align:left;
+	padding-left:3px;
+	font-size:13px;
+	color:#000000;
+	font-weight:normal;
+}
+
+.relatorio td{
+	font-size:12px;
+	color:#003366;
+	text-align:justify;
+	padding:1px;
+	/*border-bottom:1px dashed #000;
+	Border-left:1px dashed #000;*/
+
+}
+
+.relatorio fieldset{
+	margin-top:7px;
+	padding:5px;
+}
+
+.relatorio fieldset legend{
+	font-size:14px;
+	color:#575757;
+	padding-bottom:5px;
+}
+
+

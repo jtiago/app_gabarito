@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+
+body{
+       font:14px "Comic Sans MS",Verdana, Arial, Helvetica;
+/*        	background:url(../imagens/barra_fundo.jpg) top left repeat-x fixed; */
+       	background-color:#FFFFFF;
+    }
+	
+ul{
+	list-style-type:none;
+}
+
+ul#menu{
+	position:relative;
+    width:700px;
+    /*margin:0 auto;*/
+	float:left;
+	/*border:1px solid red;*/
+}
+
+ul#menu li{
+    position:relative;
+    float:left;
+}
+
+ul#menu li a{
+	display:block;
+    float:left;
+	text-align:center;
+    padding:0 15px;
+    height:30px;
+    line-height:25px;
+    background:#003366;
+    color:#FFF;
+    text-decoration:none;
+	width:136.2px;
+}
+
+ul#menu li a:hover{
+    background:#006699;
+}
+
+ul#menu li ul{
+	display:none;
+    position:absolute;
+    top:30px;
+    left:0;
+}
+
+ul#menu li:hover ul,
+ul#menu li.hover ul{
+	display:block;
+}
+
+ul#menu li ul li a{
+	padding-top:-10px;
+    width:140px;
+	text-align:left;
+    border-bottom:1px solid #fff;
+    clear:both;
+}
+
+ul#menu li ul li{
+	float:none;
+    clear:both;
+}
+
+ul#menu li ul li a{float:none;}
+
+
+/* Micox Pseudo-class-css2 to IE (MXPC). Activate .hover and .first-child in IE 6 */
+* html * { color: expression( (function(who){ if(!who.MXPC){
+   who.MXPC = '1';
+   if(who.nodeName != 'A'){
+      who.onmouseenter=function(){ who.className += ' hover'};
+      who.onmouseleave=function(){ who.className = who.className.replace(' hover','')}; }
+   (who==who.parentNode.firstChild) ? who.className += ' first-child' : '' ;
+} } )(this) , 'auto') }
+
+
+

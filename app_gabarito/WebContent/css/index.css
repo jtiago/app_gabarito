@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin:0px;
+	/*background:url(../imagens/barra_fundo.jpg) top left repeat-x fixed;*/
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+}
+
+a img{
+	border-width:0;
+}
+
+#topo{
+	width: 999px;
+	height: 180px;
+	margin: 0 auto;	
+}
+
+#menu{
+	width:999px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#rodape{
+	width: 999px;
+	height: 50px;
+	font-size: 14px;
+	text-align: center;
+	color: #003366;
+	margin-top: 200px;
+}

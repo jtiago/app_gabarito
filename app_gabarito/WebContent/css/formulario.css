@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin:0px;
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+}
+a:link{color: #003366;}
+a:visited {color: #003366;}
+a:hover {color: #003366;text-decoration:none;}
+a:active {color: #003366;text-decoration:none;}
+a img{border-width:0;}
+
+/*#tudo{width: 450px;margin-left:300px;}*/
+#topo{width: 999px;height: 180px;margin: 0 auto;}
+#menu{width:999px;height: 30px;margin: 0 auto;}
+#meio{width:600px;height: auto;margin-top: 20px; margin: 0 auto;}
+
+/*-------------------Formulario------------------*/
+form {
+	width:450px;
+	margin:0 auto;
+}
+
+fieldset{
+	margin-top:7px;
+	padding:5px;
+}
+
+fieldset legend{
+	font-size:14px;
+	color:#575757;
+	padding-bottom:5px;
+}
+
+form label{
+	display:block;
+	padding:3px 0;
+}
+
+form label span{
+	display:block;
+	color:#003366;
+	font-size:13px;
+}
+
+form label input{
+	color:#333333;
+	padding:3px 0;
+	border:1px solid #003366;
+}
+
+form label textarea{
+	color:#333333;
+	width:725px;
+	height:200px;
+}
+form label select{
+	color:#333333;
+	border:1px solid #003366;
+}
+
+form input.btn{
+	display:block;
+	width:120px;
+	padding:3px 0;
+	margin:50px auto 0;
+	border:0;
+	background:#003366;
+	color:#fff;
+	cursor:pointer;
+}
+
+form p{
+	float:right;
+	color:#003366;
+	margin-right:5px;
+}
+/*-------------------Formulario------------------*/
+input.aba{
+	width:100px;
+	padding:3px 0;
+	margin:10px auto 0;
+	border:0;
+	background:#575757;
+	color:#fff;
+	cursor:pointer;
+}
+input.alter{
+	width:50px;
+	padding:3px 0;
+	margin:10px auto 0;
+	border:0;
+	background:#575757;
+	color:#fff;
+	cursor:pointer;
+}

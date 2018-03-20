@@ -1,0 +1,10 @@
+body {
+	margin:0px;
+	padding:0px;
+/* 	background:url(../imagens/barra_fundo.jpg) top left repeat-x fixed; */
+}
+#tudo{width: 999px;margin: 0 auto;}
+#topo{width: 999px;height: 180px;margin: 0 auto;}
+#menu{width:999px;height: 30px;margin: 0 auto;}
+#menu_cadastro{width:280px; margin-top: 10px; margin-left:350px;}
+#iframe{width:999px;}

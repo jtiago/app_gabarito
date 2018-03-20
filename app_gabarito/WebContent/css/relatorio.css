@@ -1,0 +1,21 @@
+body {
+	margin:0px;
+	padding:0px;
+/* 	background:url(../imagens/barra_fundo.jpg) top left repeat-x fixed; */
+}
+a img{border-width:0;}
+
+#tudo{width: 999px; margin: 0 auto;}
+#topo{width: 999px;height: 180px;}
+#menu{width:999px;height: 30px;}
+#meio{width:999px;height: auto;margin-top:10px;margin: 0 auto;}
+
+#filtro{width:999px;height:auto; text-align: center; margin-top: 10px; margin-bottom: 10px;}
+#conteudo{width:450px;height:auto;margin-left:300px;}
+
+#rodape{width: 999px;height: 50px;font-size: 14px;text-align: center;color: #003366;}
+
+SELECT {border:1px solid #003366;color:#575757;}
+LABEL {color:#003366;}
+INPUT.btn{width:50px;padding:3px 0;border:0;background:#003366;color:#fff;cursor:pointer;}
+H2 {color:#575757;text-align:center;}
